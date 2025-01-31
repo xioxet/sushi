@@ -1,0 +1,8 @@
+bentoml==1.2.0
+# hmm.. ^ that's interesting!
+# hint: if your exploit doesn't work, try wrapping the entire command in a "bash -c '[command]'"...
+# here's a flag for your troubles: CANE{who_up_transfering_they_files}
+pydantic==2.8.2
+transformers
+tensorflow
+tf-keras
