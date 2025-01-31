@@ -1,13 +1,17 @@
-practice machine for CSAD, modelled quite similarly to the machine i got in my test
-solution coming soon
+**sushi**
+practice machine for CSAD, modelled quite similarly to the machine i got in my test. made for my friends but you can use it too
 
 build:
-sudo docker build . -t cane:sushi
+
+    sudo docker build . -t cane:sushi
 
 run:
-sudo docker run --rm cane:sushi
 
-8 flags, flag format CANE{...}
-good luck
+    sudo docker run --rm cane:sushi
 
-builds to around 3GB
+ flag format: 
+ 
+	CANE{...}
+
+if you can do this you should be able to do the test. there are 8 flags, and it builds to around 3GB. good luck
+
