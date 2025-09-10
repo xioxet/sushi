@@ -1,6 +1,6 @@
 # sushi
 
-practice machine for CSAD, modelled quite similarly to the machine i got in my test. made for my friends but you can use it too
+hello vros from SIT IS. this was created for my NYP CSAD test as practice, but the concepts taught here are quite fundamental and good to know, so it's good practice for the future pentesting module.
 
 build:
 
@@ -10,9 +10,9 @@ run:
 
     sudo docker run --rm cane:sushi
 
- flag format: 
+flag format: 
  
 	CANE{...}
 
-if you can do this you should be able to do the test. there are 8 flags, and it builds to around 3GB. good luck
-
+then to begin, just identify the ip the docker is running on, and `nmap` it.
+8 flags in total, happy pwning
